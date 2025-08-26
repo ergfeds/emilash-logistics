@@ -1,0 +1,12 @@
+[build]
+  command = "npm install"
+  nixpacksPlan = """
+    [phases.setup]
+    nixPkgs = ['nodejs-18.x', 'mysql']
+    
+    [phases.install]
+    cmds = ["npm install"]
+    
+    [start]
+    cmd = "npm start"
+  """

@@ -18,8 +18,8 @@
     "migrate": "node deploy.js db",
     "seed": "node deploy.js db"
   },
-  "keywords": ["logistics", "shipping", "tracking", "nodejs", "express", "mysql"],
-  "author": "Emilash Logistics",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
